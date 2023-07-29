@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Creative Wesite Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="logo">Code</div>
+      <img src="bg1.jpg" class="bg" />
+      <div class="content">
+        <h2>Let's Make Code<br />Something Creative</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+    </section>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <div class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="socialBar">
+        <ul>
+          <li>
+            <a href="#"><img src="facebook (1).png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="twitter (1).png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="instagram.png" /></a>
+          </li>
+        </ul>
+        <a href="mailto:you@email.com" class="emailBx"
+          ><img src="email.png"
+        /></a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function toggleMenu() {
+        var menuToggle = document.querySelector(".menuToggle");
+        var navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
